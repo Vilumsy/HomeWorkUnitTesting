@@ -17,7 +17,7 @@ namespace CoffeeMachineLIB.Test
         }
 
         [TestMethod]
-        public void GetInfoProducts_CorrectProducts_SnickersANDJuiceANDCarrots()
+        public void GetInfoProducts_CorrectProducts_LateANDAmericanoANDExpresso()
         {
             CoffeeMachine machine = new CoffeeMachine(new List<int> { 5, 10, 10, 20 });
             machine.ListOfProducts.Add("Late", 30);
